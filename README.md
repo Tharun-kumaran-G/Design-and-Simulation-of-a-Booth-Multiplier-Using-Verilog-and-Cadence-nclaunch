@@ -141,8 +141,8 @@ initial begin
     clk = 0;
     load = 0;
     reset = 1'b1;         // Assert reset
-    M = 4'b0111;          // M = 7
-    Q = 4'b1011;          // Q = -5
+    M = 4'b0110;          // M = 6
+    Q = 4'b1100;          // Q = -4
 
     #20;
     load = 1;             // Load M and Q
@@ -165,11 +165,11 @@ endmodule
 
 ## Nclaunch Work Library Window
 
-![Screenshot 2025-05-21 163301](https://github.com/user-attachments/assets/4dc3ff0b-9533-4acd-98d2-e24df31eb513)
+<img width="1920" height="1080" alt="Nclaunch Work Library Window" src="https://github.com/user-attachments/assets/fe67b88a-99a5-4002-a835-5ea39e1750a6" />
 
 ## Simulation Results
 
-![Screenshot 2025-05-21 163243](https://github.com/user-attachments/assets/e7e22fcd-2e89-478a-9ccf-321bf9d6a07c)
+<img width="1920" height="1080" alt="Simulation Waveforms" src="https://github.com/user-attachments/assets/b4661704-9fae-4996-8960-2f7513abaf6f" />
 
 
 ## Results
